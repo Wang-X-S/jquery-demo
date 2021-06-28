@@ -1,2 +1,4 @@
-const api = window.jQuery('.test')
-api.addClass('red').addClass('green')
+const api = jQuery('.father')
+api.addClass('red')
+api.find('.find').end()
+api.addClass('green')
